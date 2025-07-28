@@ -56,6 +56,11 @@ with tab2:
         text_prediction = np.where(prediction == 1, positive, negative)
         st.write(f"Predicted: {text_prediction}")
         # st.write(f'where 1 is positive / 0 is negative for overall satisfaction')
+        with st.popover("Info"):
+            st.markdown("Feature importance of 7 inputs 👋")
+            st.image("Feature-importance.jpg", width=200)
+
+
 
 # [theme]
 # primaryColor = "#041978"
