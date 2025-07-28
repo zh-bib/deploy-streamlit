@@ -58,7 +58,7 @@ with tab2:
         # st.write(f'where 1 is positive / 0 is negative for overall satisfaction')
         with st.popover("Info"):
             st.markdown("Feature importance of 7 inputs")
-            st.image("Feature-importance.jpg", width=600)
+            st.image("Feature-importance.jpg", width=1200)
 
 
 
