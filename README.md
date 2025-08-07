@@ -1,19 +1,15 @@
-# 🎈 Blank app template
+# Readme
 
-A simple Streamlit app template for you to modify!
+### Source
+
+App template imported from Streamlit
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 
-### How to run it on your own machine
+### Application
 
-1. Install the requirements
+Inserted code into app.py file to configure streamlit interface
+Model exported from python code using pickle, uploaded to repo as pkl file. 
+Two models included: one with features chosen through RFE, another with all features. 
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Config.toml file stored under .streamlit directory to configure interface of streamlit app. 
