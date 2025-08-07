@@ -17,5 +17,6 @@ Config.toml file stored under .streamlit directory to configure interface of str
 ### Deploy
 
 Deployed model can be accessed using link here
-<a href="https://review-predictor.streamlit.app/" target="_blank">Classifier for overall rating</a>
+
+<a href="https://review-predictor.streamlit.app/" target="_blank" rel="noopener">Classifier for overall rating</a>
 
