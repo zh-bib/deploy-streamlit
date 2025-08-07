@@ -13,3 +13,9 @@ Model exported from python code using pickle, uploaded to repo as pkl file.
 Two models included: one with features chosen through RFE, another with all features. 
 
 Config.toml file stored under .streamlit directory to configure interface of streamlit app. 
+
+### Deploy
+
+Deployed model can be accessed using link here
+[Classifier for overall rating](https://review-predictor.streamlit.app/)
+
